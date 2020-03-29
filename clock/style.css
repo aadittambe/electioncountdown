@@ -1,0 +1,50 @@
+body {
+    background: #dddddd;
+    text-align: center;
+}
+
+#timer {
+    color: #fff;
+    font-size: 12px;
+}
+.label {
+    font-size: 12px;;
+    padding-left: 12px;
+}
+
+p {
+  /* text-align: center; */
+  font-family: 'Lato', sans-serif;
+  clear:both;
+}
+
+#clock{
+  margin: auto;
+  width: 288px;
+}
+
+#labels div,  #numbers div {
+  float: left;
+  width: 72px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+
+}
+#numbers .separator{
+  width: 0px;
+}
+
+#labels, #numbers {
+  clear: left;
+}
+
+#numbers div {
+  font-size: 36px;
+  min-height: 36px;
+}
+
+#numbers .seconds {
+  color: #CEB47C;
+  font-weight: bold;
+}
